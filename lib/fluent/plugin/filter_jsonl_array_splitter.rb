@@ -9,6 +9,8 @@ module Fluent
             config_param :key_name, :string
             desc "Keep original key in parsed result."
             config_param :reserve_key, :bool, default: false
+            desc 'Enable debug log. Default: false.'
+            config_param :debug, :bool, :default => false
 
             def filter_stream(tag, es)
                 new_es = Fluent::MultiEventStream.new

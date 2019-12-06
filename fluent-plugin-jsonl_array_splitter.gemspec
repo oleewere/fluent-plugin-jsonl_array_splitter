@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-jsonl_record_splitter"
+  spec.name          = "fluent-plugin-jsonl_array_splitter"
   spec.version       = "0.1.0"
   spec.authors       = ["Oliver Szabo"]
   spec.email         = ["oleewere@gmail.com"]
-  spec.description   = %q{Fluentd filter plugin to split JSONL fomatted text record into multiple events}
-  spec.summary       = %q{Fluentd filter plugin to split JSONL fomatted text record into multiple events}
-  spec.homepage      = "https://github.com/oleewere/fluent-plugin-jsonl_record_splitter"
+  spec.description   = %q{Fluentd filter plugin to split JSONL fomatted array text into multiple events}
+  spec.summary       = %q{Fluentd filter plugin to split JSONL fomatted array text into multiple events}
+  spec.homepage      = "https://github.com/oleewere/fluent-plugin-jsonl_array_splitter"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

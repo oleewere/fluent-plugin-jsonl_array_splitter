@@ -4,3 +4,6 @@ gem:
 
 install: gem
 	gem install fluent-plugin-jsonl_array_splitter*.gem
+
+push: gem
+	gem push fluent-plugin-jsonl_array_splitter*.gem

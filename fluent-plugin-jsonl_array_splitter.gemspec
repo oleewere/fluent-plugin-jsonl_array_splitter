@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-jsonl_array_splitter"
-  spec.version       = "0.1.0"
+  spec.version       = File.read("VERSION").strip
   spec.authors       = ["Oliver Szabo"]
   spec.email         = ["oleewere@gmail.com"]
   spec.description   = %q{Fluentd filter plugin to split JSONL fomatted array text into multiple events}

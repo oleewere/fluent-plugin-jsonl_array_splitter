@@ -46,7 +46,9 @@ Filter Output:
 ### Configuration options
 
 `key_name`: JSONL field name that needs to be parsed/splitted
+
 `reserve_key`: keep original JSONL field in the output
+
 `debug`: print lines that are parsed one-by-one
 
 ## Contributing

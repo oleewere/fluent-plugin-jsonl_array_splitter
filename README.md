@@ -32,7 +32,7 @@ $ gem install fluent-plugin-jsonl_array_splitter
 Input:
 
 ```json
-{"command_field": "v1", "jsonlRaw": "{\"key1\": \"val1\"},{\"key2\": \"val2\"}\n{\"key1\": \"val3\"},{\"key2\": \"val4\"}"}
+{"command_field": "v1", "rawJsonLines": "{\"key1\": \"val1\"},{\"key2\": \"val2\"}\n{\"key1\": \"val3\"},{\"key2\": \"val4\"}"}
 ```
 
 Filter Output:

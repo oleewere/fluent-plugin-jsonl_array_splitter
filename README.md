@@ -1,7 +1,8 @@
 # JSONL array splitter filter plugin for Fluentd
 
 [![Build Status](https://travis-ci.org/oleewere/fluent-plugin-jsonl_array_splitter.svg?branch=master)](https://travis-ci.org/oleewere/fluent-plugin-jsonl_array_splitter)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![](https://ruby-gem-downloads-badge.herokuapp.com/fluent-plugin-jsonl_array_splitter?extension=png)
 
 ## Requirements
 

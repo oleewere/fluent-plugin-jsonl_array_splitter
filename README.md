@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/oleewere/fluent-plugin-jsonl_array_splitter.svg?branch=master)](https://travis-ci.org/oleewere/fluent-plugin-jsonl_array_splitter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-jsonl_array_splitter.svg)](http://badge.fury.io/rb/fluent-plugin-jsonl_array_splitter)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/fluent-plugin-jsonl_array_splitter?extension=png)
 
 ## Requirements
